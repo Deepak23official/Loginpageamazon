@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-of-container{
+    background-color: rgb(255, 255, 255);
+    height:400px;
+    width:60%;
+}
+.box-1{
+    height:100%;
+    width:46%;
+    background:linear-gradient(to right,rgb(154, 81, 180),rgb(0, 60, 255));
+    border-radius: 85px 20px 20px 85px;
+    color:white;
+}
+.box-2{
+    height:100%;
+    width:50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 0px 0px 20px;
+}
+.body-of-container{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.box-1 h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 41px;
+    text-align: center;
+    margin-top: 127px;
+}
+.box-1 p{
+    font-size: 17px;
+    text-align: center;
+    margin-top:13px;
+    /* padding: 40px; */
+}
+.box-1 button{
+    width:100px;
+    height:30px;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin-left: 130px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top:20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 3px rgb(255, 255, 255);
+    color: rgb(38, 0, 255);
+    color: white;
+}
+.box-1 button:active{
+    transform: scaleY(0.9);
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon span{
+    height:40px;
+    width:40px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top:20px;
+}
+.fa-brands{
+    margin-top: 9px;
+    margin-left:9px;
+    font-size: 23px;
+}
+.icon span:hover{
+    background-color: black;
+    color:red;
+}
+.box-2 p{
+    text-align: center;
+    margin-top: 10px;
+}
+.user-input{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px 0px 30px;
+}
+.user-input input{
+    height:40px;
+    margin-top:20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    background-color: rgba(237, 229, 229, 0.374);
+}
+.box-2 .a{
+    position: relative;
+    top:20px;
+    left:120px;
+    letter-spacing: 2px;
+}
+.box-2 button{
+    margin-top:35px;
+    margin-left:140px;
+    width:100px;
+    height:30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: goldenrod;
+}
+.box-2 button:active{
+    transform: scaleY(1.1);
+}
